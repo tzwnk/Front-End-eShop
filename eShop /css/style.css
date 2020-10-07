@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none
+}
+body {
+  background-color: white
+}
+html { scroll-behavior: smooth; font-family: arial;} 
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#logo{
+  display: block;
+  width: 60%;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+a:visited {color:#1C2833;}
+.navigation a:hover {
+  font-size: 17px;
+  color:#FFF ;
+}
+.navigation a:active {color:#BA4A00;}
+.navigation ul {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  background-color: #292826;
+  height: 40px;
+  line-height: 40px;
+}
+.navigation ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.navigation ul li a {
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bolder;
+  color: #FF3D3D;
+}
+
+#scroll_links ul{
+  display: block;
+  font-size: 13px;
+  font-family: arial;
+  font-weight: bolder;
+  color: #333333;
+  text-align: center;
+  border-bottom: 2px solid #333333;
+}
+#scroll_links ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+#scroll_links ul li a{
+}
+
+
+
+.products_table table{
+  margin: 80px auto;
+  height: 2800px;
+  border-collapse: collapse;
+}
+.products_table img{
+  margin-left: 40px;
+  width: 150px;
+}
+.products_table th {
+  border-bottom: 4px solid #333333;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bolder;
+  color: #333333;
+  text-align: center;
+  border-left: 3px solid #333333;
+}
+.products_table td {
+  text-align: center;
+  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  padding: 3px 4px;
+  font-size: 18px;
+  font-family: arial;
+}
+.products_table th:first-child {
+  border-left: none;
+}
+
+p{
+  font-family: arial;
+  margin: 10px;
+}
+
+#tips{
+  text-decoration: underline;
+  font-size: 1.2em
+}
+#variety{
+  text-align: center
+}
+#variety ul li{
+  display: inline-block;
+}
+#borders{
+  width: 50%;
+  margin-right:30%;
+  margin-left: 30%;
+}
+.table img{
+  width: 250px
+}
+
+.table {
+  border-width: 2px
+}
